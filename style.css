@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .container {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Header */
+  .Header-outer-div {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 120px;
+    background: rgb(66, 236, 248);
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    justify-content: space-between;
+  }
+
+  .header-image {
+    height: 70px;
+    width: 70px;
+  }
+
+  nav a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+  }
+
+  .header-social-icons img {
+    height: 24px;
+    margin: 0 5px;
+  }
+
+  .header-social-icons {
+    display: flex;
+    align-items: center;
+  }
+
+  /* Tropical Section */
+  .tropical-section-left {
+    position: relative;
+  }
+
+  .tropical-section-left img {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+  }
+
+  .tropical-inner-div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+
+  .tropical-inner-div h1 {
+    text-transform: uppercase;
+    font-family: 'korolev-rounded', sans-serif;
+    font-size: 5.2vw;
+    font-weight: 800;
+    line-height: 72px;
+    margin-bottom: 32px;
+  }
+
+  .tropical-inner-div button {
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 10px 43px;
+    font-size: 0.9rem;
+    font-family: 'korolev', sans-serif;
+    color: white;
+    cursor: pointer;
+  }
+
+  /* Recipes Section */
+  .recipes-position-center {
+    position: relative;
+  }
+
+  .recipes-position-center img {
+    width: 100%;
+    height: auto;
+  }
+
+  .recipes-inner-div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(10, 91, 43, 0.8);
+    border-radius: 100px;
+    padding: 10px 20px 43px 20px;
+    color: white;
+    width: 45%;
+  }
+
+  .button-recipes {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 7px 36px;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+  }
+
+  /* Store Locator Section */
+  .storelocator-position-center {
+    position: relative;
+  }
+
+  .storelocator-position-center img {
+    width: 100%;
+    height: auto;
+  }
+
+  .storelocator-inner-div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(10, 91, 43, 0.8);
+    border-radius: 100px;
+    padding: 10px 20px 43px 20px;
+    color: white;
+    width: 45%;
+  }
+
+  .button-storelocator {
+    margin-top: 10px;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 7px 36px;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+  }
+
+  /* Footer */
+  .footer {
+    width: 100%;
+    background-color: #3e3e3e;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .footer nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+  }
+
+  .footer p {
+    margin-top: 10px;
+    font-size: 0.8rem;
+  }
